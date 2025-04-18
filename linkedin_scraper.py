@@ -155,7 +155,7 @@ def login_to_linkedin(driver):
         login_button.click()
         
         # Wait for login to complete
-        time.sleep(random.uniform(10, 15))
+        time.sleep(random.uniform(20, 30))
         return True
         
     except Exception as e:

@@ -121,7 +121,7 @@ def automate_email_sending():
             })
         
         # Add random delay between emails (30-60 seconds)
-        delay = random.uniform(30, 60)
+        delay = random.uniform(10, 20)
         print(f"⏳ Waiting {delay:.1f} seconds before next email...")
         time.sleep(delay)
     
