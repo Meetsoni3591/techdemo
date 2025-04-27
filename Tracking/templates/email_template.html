@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Partnership Opportunity</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            background: linear-gradient(135deg, #6B73FF 0%, #000DFF 100%);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            border-radius: 5px;
+        }
+        .content {
+            padding: 20px;
+            background: #f9f9f9;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .cta-button {
+            display: inline-block;
+            padding: 12px 24px;
+            background-color: #000DFF;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Partnership Opportunity</h1>
+    </div>
+    
+    <div class="content">
+        <h2>Dear {{ company_name }} Team,</h2>
+        <p>I hope this email finds you well. I came across your company while researching {{ industry }} companies in {{ location }}, and I was impressed by your work.</p>
+        <p>We are looking to establish partnerships with innovative companies in the {{ industry }} space, and we believe there could be great synergy between our organizations.</p>
+        
+        <div style="text-align: center;">
+            <a href="{{ tracking_url }}" class="cta-button">Schedule a Call</a>
+        </div>
+        
+        <p>Would you be open to a brief conversation to explore potential collaboration opportunities?</p>
+        <p>Looking forward to your response.</p>
+        <p>Best regards,<br>
+        {{ sender_name }}<br>
+        {{ sender_position }}<br>
+        {{ sender_company }}</p>
+    </div>
+    
+    <div class="footer">
+        <p>This email was sent to {{ email }}. To unsubscribe, click here.</p>
+        <img src="{{ tracking_pixel_url }}" width="1" height="1" alt="" />
+    </div>
+</body>
+</html> 
