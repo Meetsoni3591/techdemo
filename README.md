@@ -1,4 +1,10 @@
 Read Me File For Tech mantra Assignement 
+
+Update Email Tracking
+I have Created a Django app for traking the emails campaing 
+Just have to upload the csv file which contains the emailID, Company Name, Website, Industrty, Location, followers, Description 
+there is a sample csv file is this repo with the name of linkedin_companies_with_emails.csv consider that csv file  
+
 LinkedIn Scraper File Steps 
 step - 1 
 login to LinkedIn PLatform 
